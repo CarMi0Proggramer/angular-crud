@@ -21,7 +21,7 @@ type UpdateProductParams = {
     providedIn: "root",
 })
 export class ProductsService {
-    private apiUrl = "https://angular-crud-backend.onrender.com/products";
+    private apiUrl = "https://angular-crud-backend-ks0a.onrender.com/products";
 
     constructor(private http: HttpClient) {}
 
